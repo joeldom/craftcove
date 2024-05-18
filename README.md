@@ -9,7 +9,7 @@
 - OnlyBirds
 - Portfolio Landing page
 
-### ToDo
+### To Do
 - Research: LinkPreview: to be used as a way to add work in repos/branches to a UI
 - Research: Bird watching cam API
 - Work on David's Landing Page
@@ -18,6 +18,11 @@
   - text effect
   - logo / favicon
 
+### To Discuss
+- nice to haves
+- tech stack
+
+## Patterns
 
 ## Resources
 - TIMEFLIP: https://timeflip.io/

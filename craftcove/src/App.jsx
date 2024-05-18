@@ -26,6 +26,7 @@ const App = () => {
             <button className="toggle-button" onClick={toggleTheme}>
                 {isDarkTheme ? 'Dark' : 'Light'} Mode
             </button>
+            <img className="bird" src='assets/bird.png'/>
         </div>
     );
 };

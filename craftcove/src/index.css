@@ -56,7 +56,7 @@ button:focus-visible {
 }
 
 
-/* what is this? isnt used for the toggle */
+/* BUG this isnt working. what is this? isnt used for the toggle */
 
 @media (prefers-color-scheme: light) {
      :root {
@@ -79,4 +79,12 @@ button:focus-visible {
 .light-mode button {
     color: #213547;
     background-color: #f9f9f9;
+}
+
+.bird {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: auto;
 }
