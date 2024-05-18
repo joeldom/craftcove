@@ -12,7 +12,11 @@
 ### ToDo
 - Research: LinkPreview: to be used as a way to add work in repos/branches to a UI
 - Research: Bird watching cam API
-- Work on 
+- Work on David's Landing Page
+  - add content tiles
+  - type hierarchy
+  - text effect
+  - logo / favicon
 
 
 ## Resources

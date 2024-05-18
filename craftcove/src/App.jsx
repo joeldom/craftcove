@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 const darkTheme = {
-    background: '#121212',
+    background: '#000',
     color: '#ffffff'
 };
 
