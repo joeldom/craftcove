@@ -20,6 +20,7 @@ h5,
 h6 {
     padding: 1em;
     max-width: 60%;
+    z-index: 1;
 }
 
 .dark-mode {

@@ -87,4 +87,5 @@ button:focus-visible {
     right: 0;
     width: 400px;
     height: auto;
+    z-index: 0;
 }
