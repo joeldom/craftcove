@@ -12,6 +12,16 @@
     width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 1em;
+    max-width: 60%;
+}
+
 .dark-mode {
     background-color: #121212;
     color: #ffffff;
@@ -23,5 +33,8 @@
 }
 
 .toggle-button {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    position: absolute;
+    top: 1em;
+    right: 1em;
 }
