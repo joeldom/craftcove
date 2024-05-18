@@ -3,25 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repository Branch Preview</title>
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Repository Branch Preview">
-    <meta property="og:description" content="Check out this branch of our repository!">
-    <meta property="og:image" content="https://example.com/path/to/your/image.jpg">
-    <meta property="og:url" content="https://github.com/your-repo/branch">
-    <meta property="og:type" content="website">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Repository Branch Preview">
-    <meta name="twitter:description" content="Check out this branch of our repository!">
-    <meta name="twitter:image" content="https://example.com/path/to/your/image.jpg">
-    <meta name="twitter:url" content="https://github.com/your-repo/branch">
-    
+    <title>User Interface</title>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {background-color: #f1f1f1}
+        .dropdown:hover .dropdown-content {display: block;}
+        .profile-icon {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Repository Branch Preview</h1>
-    <p>Check out this branch of our repository!</p>
+<div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+            <a href="#">Visitor</a>
+            <a href="#">Authorized User</a>
+        </div>
+    </div>
+    <img src="profile.jpg" alt="Profile" class="profile-icon">
+</div>
 </body>
 </html>
