@@ -8,19 +8,25 @@
 ### Concepts
 - OnlyBirds
 - Portfolio Landing page
+- project tiles
 
 ### To Do
 - Research: LinkPreview: to be used as a way to add work in repos/branches to a UI
 - Research: Bird watching cam API
-- Work on David's Landing Page
+- Work on D's Landing Page
   - add content tiles
   - type hierarchy
   - text effect
   - logo / favicon
+  - refactor stylesheets
+  - add SASS w maps
+  - /dir in /assets
 
 ### To Discuss
 - nice to haves
 - tech stack
+- aesthetic 
+- copy & details
 
 ## Patterns
 
