@@ -21,6 +21,11 @@
   - refactor stylesheets
   - add SASS w maps
   - /dir in /assets
+- site map
+  - landing
+  - categories
+  - contact
+  - sandbox
 
 ### To Discuss
 - nice to haves
