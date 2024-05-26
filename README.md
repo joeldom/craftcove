@@ -29,6 +29,7 @@
 
 ### To Discuss
 - nice to haves
+  - captcha + email entry to download CV/resume
 - tech stack
 - aesthetic 
 - copy & details
