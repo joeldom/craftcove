@@ -33,9 +33,9 @@ jobs:
       - name: Install PNPM
         run: npm install -g pnpm
       - name: Install dependencies
-        run: pnpm ci
+        run: npx pnpm ci
       - name: Build
-        run: pnpm run build
+        run: npx pnpm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
