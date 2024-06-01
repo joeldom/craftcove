@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        run: npx pnpm ci
+        run: npx pnpm install
       - name: Build
         run: npx pnpm run build
       - name: Setup Pages
