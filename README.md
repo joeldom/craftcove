@@ -15,6 +15,8 @@
 
 ### To Do
 
+- URGENT: github pages build
+  - run `build` action on changes to `main` branch
 - Research: LinkPreview: to be used as a way to add work in repos/branches to a UI
 - Research: Bird watching cam API
 - Work on D's Landing Page
