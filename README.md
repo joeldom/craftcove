@@ -40,6 +40,7 @@
 - tech stack
 - aesthetic
 - copy & details
+- build fixes 6.14
 
 ## Patterns
 
